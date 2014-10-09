@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<form string="Asset Project">
+    <label name="code"/>
+    <field name="code"/>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="asset"/>
+    <field name="asset"/>
+    <label name="party"/>
+    <field name="party"/>
+    <label name="milestone_group"/>
+    <field name="milestone_group"/>
+    <newline/>
+    <label name="start_date"/>
+    <field name="start_date"/>
+    <label name="end_date"/>
+    <field name="end_date"/>
+    <label name="maintenance"/>
+    <field name="maintenance"/>
+    <label name="category"/>
+    <field name="category"/>
+    <label name="date_planned"/>
+    <field name="date_planned"/>
+    <label name="date_start"/>
+    <field name="date_start"/>
+    <label name="date_done"/>
+    <field name="date_done"/>
+    <label name="date_next"/>
+    <field name="date_next"/>
+    <notebook>
+        <page id="amounts" string="Amounts" col="6">
+            <separator id="invoice" string="Invoice" colspan="6"/>
+            <label name="amount_to_assign"/>
+            <field name="amount_to_assign"/>
+            <label name="amount_invoice"/>
+            <field name="amount_invoice"/>
+            <label name="amount_milestones"/>
+            <field name="amount_milestones"/>
+            <separator id="income" string="Income" colspan="6"/>
+            <label name="income_labor"/>
+            <field name="income_labor"/>
+            <label name="income_material"/>
+            <field name="income_material"/>
+            <label name="income_other"/>
+            <field name="income_other"/>
+            <separator id="expense" string="Expense" colspan="6"/>
+            <label name="expense_labor"/>
+            <field name="expense_labor"/>
+            <label name="expense_material"/>
+            <field name="expense_material"/>
+            <label name="expense_other"/>
+            <field name="expense_other"/>
+            <separator id="margin" string="Margins" colspan="6"/>
+            <label name="margin_labor"/>
+            <field name="margin_labor"/>
+            <label name="margin_material"/>
+            <field name="margin_material"/>
+            <label name="margin_other"/>
+            <field name="margin_other"/>
+            <label name="margin_percent_labor"/>
+            <field name="margin_percent_labor" factor="100"/>
+            <label name="margin_percent_material"/>
+            <field name="margin_percent_material" factor="100"/>
+            <label name="margin_percent_other"/>
+            <field name="margin_percent_other" factor="100"/>
+        </page>
+        <page name="sales">
+            <field name="sales"/>
+            <field name="sale_lines"/>
+        </page>
+        <page name="milestones">
+            <field name="milestones"/>
+        </page>
+        <page name="work_shipments">
+            <field name="work_shipments"/>
+        </page>
+        <page string="Shipments" id="shipments">
+            <field name="moves" colspan="4"/>
+            <field name="shipments" colspan="4"/>
+            <field name="shipment_returns" colspan="4"/>
+        </page>
+        <page name="note">
+            <field name="note" colspan="4"/>
+        </page>
+    </notebook>
+</form>

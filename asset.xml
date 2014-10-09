@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="res.group" id="group_asset_project_admin">
+            <field name="name">Asset Project Administration</field>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_asset_project_admin">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_asset_project_admin"/>
+        </record>
+        <record model="res.user-res.group" id="user_trigger_group_asset_project_admin">
+            <field name="user" ref="res.user_trigger"/>
+            <field name="group" ref="group_asset_project_admin"/>
+        </record>
+        <record model="res.group" id="group_asset_project">
+            <field name="name">Asset Project</field>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_asset_project">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_asset_project"/>
+        </record>
+        <record model="res.user-res.group" id="user_trigger_group_asset_project">
+            <field name="user" ref="res.user_trigger"/>
+            <field name="group" ref="group_asset_project"/>
+        </record>
+        <record model="ir.ui.view" id="asset_project_view_form">
+            <field name="model">asset.project</field>
+            <field name="type">form</field>
+            <field name="name">project_form</field>
+        </record>
+        <record model="ir.ui.view" id="asset_project_view_list">
+            <field name="model">asset.project</field>
+            <field name="type">tree</field>
+            <field name="name">project_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_asset_project">
+            <field name="name">Asset Project</field>
+            <field name="res_model">asset.project</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_asset_project_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="asset_project_view_list"/>
+            <field name="act_window" ref="act_asset_project"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_asset_project_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="asset_project_view_form"/>
+            <field name="act_window" ref="act_asset_project"/>
+        </record>
+        <record model="ir.model.access" id="access_asset_project">
+            <field name="model" search="[('model', '=', 'asset.project')]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_asset_project_user">
+            <field name="model" search="[('model', '=', 'asset.project')]"/>
+            <field name="group" ref="group_asset_project"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_asset_project_admin">
+            <field name="model" search="[('model', '=', 'asset.project')]"/>
+            <field name="group" ref="group_asset_project_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <!-- Relates -->
+        <record model="ir.action.act_window" id="act_shipment_form">
+            <field name="name">Shipments</field>
+            <field name="res_model">stock.shipment.out</field>
+            <field name="domain">[('moves.sale.project', 'in', Eval('active_ids'))]</field>
+        </record>
+        <record model="ir.action.keyword"
+                id="act_open_shipment_keyword1">
+            <field name="keyword">form_relate</field>
+            <field name="model">asset.project,-1</field>
+            <field name="action" ref="act_shipment_form"/>
+        </record>
+        <record model="ir.action.act_window" id="act_return_form">
+            <field name="name">Returns</field>
+            <field name="res_model">stock.shipment.out.return</field>
+            <field name="domain">[('moves.sale.project', 'in', Eval('active_ids'))]</field>
+        </record>
+        <record model="ir.action.keyword" id="act_open_shipment_return_keyword1">
+            <field name="keyword">form_relate</field>
+            <field name="model">asset.project,-1</field>
+            <field name="action" ref="act_return_form"/>
+        </record>
+        <record model="ir.action.act_window" id="act_shipment_work_form">
+            <field name="name">Shipment Work</field>
+            <field name="res_model">shipment.work</field>
+            <field name="domain">[('project', 'in', Eval('active_ids'))]</field>
+        </record>
+        <record model="ir.action.keyword"
+                id="act_open_shipment_work_keyword1">
+            <field name="keyword">form_relate</field>
+            <field name="model">asset.project,-1</field>
+            <field name="action" ref="act_shipment_work_form"/>
+        </record>
+        <record model="ir.action.act_window" id="act_timesheet_lines_form">
+            <field name="name">Timesheet Lines</field>
+            <field name="res_model">timesheet.line</field>
+            <field name="domain">[('shipment.project', 'in', Eval('active_ids'))]</field>
+        </record>
+        <record model="ir.action.keyword"
+                id="act_open_timesheet_lines_keyword1">
+            <field name="keyword">form_relate</field>
+            <field name="model">asset.project,-1</field>
+            <field name="action" ref="act_timesheet_lines_form"/>
+        </record>
+        <record model="ir.action.act_window" id="act_invoices_form">
+            <field name="name">Invoices</field>
+            <field name="res_model">account.invoice</field>
+            <field name="domain">[('milestone.group.project', 'in', Eval('active_ids'))]</field>
+        </record>
+        <record model="ir.action.keyword"
+                id="act_open_invoices_keyword1">
+            <field name="keyword">form_relate</field>
+            <field name="model">asset.project,-1</field>
+            <field name="action" ref="act_invoices_form"/>
+        </record>
+        <record model="ir.ui.view" id="project_sale_line_view_form">
+            <field name="model">asset.project.sale.line</field>
+            <field name="type">form</field>
+            <field name="name">project_sale_line_form</field>
+        </record>
+        <record model="ir.ui.view" id="project_sale_line_view_tree">
+            <field name="model">asset.project.sale.line</field>
+            <field name="type">tree</field>
+            <field name="name">project_sale_line_tree</field>
+        </record>
+        <record model="ir.model.access" id="access_asset_project_sale_line">
+            <field name="model"
+                search="[('model', '=', 'asset.project.sale.line')]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.ui.view" id="sale_sale_view_form">
+            <field name="model">sale.sale</field>
+            <field name="type">form</field>
+            <field name="inherit" ref="sale.sale_view_form"/>
+            <field name="name">sale_sale_form</field>
+        </record>
+        <record model="ir.ui.view" id="shipment_work_view_form">
+            <field name="model">shipment.work</field>
+            <field name="type">form</field>
+            <field name="inherit" ref="shipment_work.shipment_work_view_form"/>
+            <field name="name">shipment_work_form</field>
+        </record>
+        <record model="ir.ui.view" id="shipment_work_view_list">
+            <field name="model">shipment.work</field>
+            <field name="type">tree</field>
+            <field name="inherit" ref="shipment_work.shipment_work_view_list"/>
+            <field name="name">shipment_work_list</field>
+        </record>
+
+          <record model="ir.rule.group" id="rule_group_asset_project">
+            <field name="model" search="[('model', '=', 'asset.project')]"/>
+            <field name="global_p" eval="True"/>
+          </record>
+
+          <record model="ir.rule" id="rule_asset_project1">
+            <field name="domain">[('company', '=', user.company.id if user.company else None)]</field>
+            <field name="rule_group" ref="rule_group_asset_project"/>
+          </record>
+
+      <menuitem action="act_asset_project" id="menu_asset_project"
+          parent="asset.menu_asset" sequence="20"/>
+          <record model="ir.ui.menu-res.group" id="menu_asset_project_group_admin">
+            <field name="menu" ref="menu_asset_project"/>
+            <field name="group" ref="group_asset_project"/>
+          </record>
+
+          <record model="ir.ui.menu-res.group" id="menu_asset_project_group_asset_project_admin">
+            <field name="menu" ref="menu_asset_project"/>
+            <field name="group" ref="group_asset_project_admin"/>
+          </record>
+    </data>
+</tryton>

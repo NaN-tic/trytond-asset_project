@@ -1,0 +1,471 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "error:asset.project-account.invoice.milestone.group:"
+msgid "The Milestone Group must be unique."
+msgstr "El grupo de fitas debe ser único."
+
+msgctxt "error:asset.project-account.invoice.milestone.group:"
+msgid "The Project must be unique."
+msgstr "El proyecto debe ser único."
+
+msgctxt "field:account.invoice.milestone.group,project:"
+msgid "Project"
+msgstr "Proyecto"
+
+msgctxt "field:asset.project,amount_invoice:"
+msgid "Amount To Invoice"
+msgstr "Importe a facturar"
+
+msgctxt "field:asset.project,amount_milestones:"
+msgid "Amount In Milestones"
+msgstr "Importe en hitos"
+
+msgctxt "field:asset.project,amount_to_assign:"
+msgid "Amount to Assign"
+msgstr "Importe por asignar"
+
+msgctxt "field:asset.project,asset:"
+msgid "Asset"
+msgstr "Activos"
+
+msgctxt "field:asset.project,asset_maintenances:"
+msgid "Maintenances"
+msgstr "Mantenimentos"
+
+msgctxt "field:asset.project,category:"
+msgid "Category"
+msgstr "Categoría"
+
+msgctxt "field:asset.project,code:"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "field:asset.project,code_readonly:"
+msgid "Code Readonly"
+msgstr "Código sólo lectura"
+
+msgctxt "field:asset.project,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:asset.project,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.project,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.project,date_done:"
+msgid "Done Date"
+msgstr "Fecha realización"
+
+msgctxt "field:asset.project,date_next:"
+msgid "Next maintenance"
+msgstr ""
+
+msgctxt "field:asset.project,date_planned:"
+msgid "Planned Date"
+msgstr "Fecha planificación"
+
+msgctxt "field:asset.project,date_start:"
+msgid "Start Date"
+msgstr "Fecha inicio"
+
+msgctxt "field:asset.project,end_date:"
+msgid "End Date"
+msgstr "Fecha finalización"
+
+msgctxt "field:asset.project,expense_labor:"
+msgid "Expense Labor"
+msgstr "Gastos laborales"
+
+msgctxt "field:asset.project,expense_material:"
+msgid "Expense Material"
+msgstr "Gastos materiales"
+
+msgctxt "field:asset.project,expense_other:"
+msgid "Expense Other"
+msgstr "Otros gastos"
+
+msgctxt "field:asset.project,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.project,income_labor:"
+msgid "Income Labor"
+msgstr "Ingresos laborales"
+
+msgctxt "field:asset.project,income_material:"
+msgid "Income Material"
+msgstr "Ingresos materiales"
+
+msgctxt "field:asset.project,income_other:"
+msgid "Income Other"
+msgstr "Otros ingresos"
+
+msgctxt "field:asset.project,maintenance:"
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+msgctxt "field:asset.project,margin_labor:"
+msgid "Margin Labor"
+msgstr "Margen laboral"
+
+msgctxt "field:asset.project,margin_material:"
+msgid "Margin Material"
+msgstr "Margen material"
+
+msgctxt "field:asset.project,margin_other:"
+msgid "Margin Other"
+msgstr "Margen otros"
+
+msgctxt "field:asset.project,margin_percent_labor:"
+msgid "Margin(%) Labor"
+msgstr "Margen (%) laboral"
+
+msgctxt "field:asset.project,margin_percent_material:"
+msgid "Margin (%) Material"
+msgstr "Margen (%) material"
+
+msgctxt "field:asset.project,margin_percent_other:"
+msgid "Margin (%) Other"
+msgstr "Margen (%) otros"
+
+msgctxt "field:asset.project,milestone_group:"
+msgid "Milestone Group"
+msgstr "Grupo de hitos"
+
+msgctxt "field:asset.project,milestones:"
+msgid "Milestones"
+msgstr "Hitos"
+
+msgctxt "field:asset.project,moves:"
+msgid "Moves"
+msgstr "Movimientos"
+
+msgctxt "field:asset.project,note:"
+msgid "Note"
+msgstr "Nota"
+
+msgctxt "field:asset.project,party:"
+msgid "Party"
+msgstr "Terceros"
+
+msgctxt "field:asset.project,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.project,sale_lines:"
+msgid "Sale Lines"
+msgstr "Líneas de venta"
+
+msgctxt "field:asset.project,sales:"
+msgid "Sales"
+msgstr "Ventas"
+
+msgctxt "field:asset.project,shipment_returns:"
+msgid "Shipment Returns"
+msgstr "Albaranes de devolución"
+
+msgctxt "field:asset.project,shipments:"
+msgid "Shipments"
+msgstr "Albaranes"
+
+msgctxt "field:asset.project,start_date:"
+msgid "Start Date"
+msgstr "Fecha inicio"
+
+msgctxt "field:asset.project,unit_digits:"
+msgid "Unit Digits"
+msgstr "Dígitos unidad"
+
+msgctxt "field:asset.project,work_shipments:"
+msgid "Shipment Works"
+msgstr "Albaranes de trabajo"
+
+msgctxt "field:asset.project,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.project,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.project-account.invoice.milestone.group,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.project-account.invoice.milestone.group,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.project-account.invoice.milestone.group,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.project-account.invoice.milestone.group,milestone_group:"
+msgid "Milestone Group"
+msgstr "Grupo de hitos"
+
+msgctxt "field:asset.project-account.invoice.milestone.group,project:"
+msgid "Project"
+msgstr "Proyecto"
+
+msgctxt "field:asset.project-account.invoice.milestone.group,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.project-account.invoice.milestone.group,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.project-account.invoice.milestone.group,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.project.configuration,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.project.configuration,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.project.configuration,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.project.configuration,project_sequence:"
+msgid "Maintenance Sequence"
+msgstr ""
+
+msgctxt "field:asset.project.configuration,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.project.configuration,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.project.configuration,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.project.configuration.company,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:asset.project.configuration.company,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.project.configuration.company,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.project.configuration.company,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.project.configuration.company,project_sequence:"
+msgid "Project Sequence"
+msgstr "Sequencia proyectos"
+
+msgctxt "field:asset.project.configuration.company,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.project.configuration.company,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.project.configuration.company,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.project.sale.line,amount:"
+msgid "Amount"
+msgstr "Importe"
+
+msgctxt "field:asset.project.sale.line,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.project.sale.line,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.project.sale.line,currency:"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "field:asset.project.sale.line,currency_digits:"
+msgid "Currency Digits"
+msgstr "Decimals de la moneda"
+
+msgctxt "field:asset.project.sale.line,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.project.sale.line,product:"
+msgid "Product"
+msgstr "Productos"
+
+msgctxt "field:asset.project.sale.line,project:"
+msgid "Project"
+msgstr "Proyecto"
+
+msgctxt "field:asset.project.sale.line,quantity:"
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgctxt "field:asset.project.sale.line,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.project.sale.line,unit:"
+msgid "Unit"
+msgstr "Unidad"
+
+msgctxt "field:asset.project.sale.line,unit_digits:"
+msgid "Unit Digits"
+msgstr "Dígitos unidad"
+
+msgctxt "field:asset.project.sale.line,unit_price:"
+msgid "Unit Price"
+msgstr "Precio unidad"
+
+msgctxt "field:asset.project.sale.line,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.project.sale.line,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:sale.sale,project:"
+msgid "Project"
+msgstr "Proyecto"
+
+msgctxt "field:shipment.work,project:"
+msgid "Project"
+msgstr "Proyecto"
+
+msgctxt "model:asset.project,name:"
+msgid "Asset Project"
+msgstr "Proyecto de activos"
+
+msgctxt "model:asset.project-account.invoice.milestone.group,name:"
+msgid "Project - Milestone"
+msgstr "Proyecto - Hito"
+
+msgctxt "model:asset.project.configuration,name:"
+msgid "Project Configuration"
+msgstr "Configuración proyectos"
+
+msgctxt "model:asset.project.configuration.company,name:"
+msgid "Asset Project Configuration per Company"
+msgstr "Configuración proyectos de activos por empresa"
+
+msgctxt "model:asset.project.sale.line,name:"
+msgid "Project Sale Line"
+msgstr "Linea de venta de proyectos"
+
+msgctxt "model:ir.action,name:act_asset_project"
+msgid "Asset Project"
+msgstr "Proyectos de activos"
+
+msgctxt "model:ir.action,name:act_configuration_form"
+msgid "Project Configuration"
+msgstr "Configuración proyectos"
+
+msgctxt "model:ir.action,name:act_invoices_form"
+msgid "Invoices"
+msgstr "Facturas"
+
+msgctxt "model:ir.action,name:act_return_form"
+msgid "Returns"
+msgstr "Albaranes de devolución"
+
+msgctxt "model:ir.action,name:act_shipment_form"
+msgid "Shipments"
+msgstr "Albaranes"
+
+msgctxt "model:ir.action,name:act_shipment_work_form"
+msgid "Shipment Work"
+msgstr "Albaranes de trabajo"
+
+msgctxt "model:ir.action,name:act_timesheet_lines_form"
+msgid "Timesheet Lines"
+msgstr "Líneas de parte de trabajo"
+
+msgctxt "model:ir.sequence,name:sequence_asset_project"
+msgid "Asset Project"
+msgstr "Proyecto de activos"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_asset_project"
+msgid "Asset Project"
+msgstr "Proyecto de activos"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_project"
+msgid "Asset Project"
+msgstr "Proyectos de activos"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration_form"
+msgid "Project Configuration"
+msgstr "Configuración proyectos"
+
+msgctxt "model:res.group,name:group_asset_project"
+msgid "Asset Project"
+msgstr "Proyecto de activos"
+
+msgctxt "model:res.group,name:group_asset_project_admin"
+msgid "Asset Project Administration"
+msgstr "Administración proyectos de activos"
+
+msgctxt "view:asset.project.configuration:"
+msgid "Project Configuration"
+msgstr "Configuración proyectos"
+
+msgctxt "view:asset.project.sale.line:"
+msgid "Project Sale Line"
+msgstr "Linea de venta de proyectos"
+
+msgctxt "view:asset.project.sale.line:"
+msgid "Project Sale lines"
+msgstr "Linea de venta de proyectos"
+
+msgctxt "view:asset.project:"
+msgid "Amounts"
+msgstr "Importes"
+
+msgctxt "view:asset.project:"
+msgid "Asset Project"
+msgstr "Proyectos de activos"
+
+msgctxt "view:asset.project:"
+msgid "Asset Projects"
+msgstr "Proyectos de activos"
+
+msgctxt "view:asset.project:"
+msgid "Expense"
+msgstr "Gastos"
+
+msgctxt "view:asset.project:"
+msgid "Income"
+msgstr "Ingresos"
+
+msgctxt "view:asset.project:"
+msgid "Invoice"
+msgstr "Factura"
+
+msgctxt "view:asset.project:"
+msgid "Margins"
+msgstr "Margenes"
+
+msgctxt "view:asset.project:"
+msgid "Shipments"
+msgstr "Albaranes"

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<form string="Project Configuration">
+    <label name="project_sequence"/>
+    <field name="project_sequence"/>
+</form>

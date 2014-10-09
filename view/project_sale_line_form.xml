@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<form string="Project Sale lines">
+    <label name="project"/>
+    <field name="project"/>
+    <label name="product"/>
+    <field name="product"/>
+    <label name="quantity"/>
+    <field name="quantity"/>
+    <label name="unit"/>
+    <field name="unit"/>
+    <label name="unit_price"/>
+    <field name="unit_price"/>
+    <label name="amount"/>
+    <field name="amount"/>
+    <label name="currency"/>
+    <field name="currency"/>
+</form>
