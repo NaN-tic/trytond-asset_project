@@ -36,7 +36,7 @@ msgstr "Manteniments"
 
 msgctxt "field:asset.project,category:"
 msgid "Category"
-msgstr "Categoría"
+msgstr "Categoria"
 
 msgctxt "field:asset.project,code:"
 msgid "Code"
@@ -52,11 +52,11 @@ msgstr "Empresa"
 
 msgctxt "field:asset.project,create_date:"
 msgid "Create Date"
-msgstr "Data de creació"
+msgstr "Data creació"
 
 msgctxt "field:asset.project,create_uid:"
 msgid "Create User"
-msgstr "Usuari de creació"
+msgstr "Usuari creació"
 
 msgctxt "field:asset.project,date_done:"
 msgid "Done Date"
@@ -92,7 +92,7 @@ msgstr "Altres despeses"
 
 msgctxt "field:asset.project,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:asset.project,income_labor:"
 msgid "Income Labor"
@@ -180,7 +180,7 @@ msgstr "Data inicial"
 
 msgctxt "field:asset.project,unit_digits:"
 msgid "Unit Digits"
-msgstr "Decimals unitaris"
+msgstr "Decimals unitat"
 
 msgctxt "field:asset.project,work_shipments:"
 msgid "Shipment Works"
@@ -188,7 +188,7 @@ msgstr "Albarans de treball"
 
 msgctxt "field:asset.project,write_date:"
 msgid "Write Date"
-msgstr "Data modificación"
+msgstr "Data modificació"
 
 msgctxt "field:asset.project,write_uid:"
 msgid "Write User"
@@ -196,15 +196,15 @@ msgstr "Usuari modificació"
 
 msgctxt "field:asset.project-account.invoice.milestone.group,create_date:"
 msgid "Create Date"
-msgstr "Data de creació"
+msgstr "Data creació"
 
 msgctxt "field:asset.project-account.invoice.milestone.group,create_uid:"
 msgid "Create User"
-msgstr "Usuari de creació"
+msgstr "Usuari creació"
 
 msgctxt "field:asset.project-account.invoice.milestone.group,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:asset.project-account.invoice.milestone.group,milestone_group:"
 msgid "Milestone Group"
@@ -220,7 +220,7 @@ msgstr "Nom"
 
 msgctxt "field:asset.project-account.invoice.milestone.group,write_date:"
 msgid "Write Date"
-msgstr "Data modificación"
+msgstr "Data modificació"
 
 msgctxt "field:asset.project-account.invoice.milestone.group,write_uid:"
 msgid "Write User"
@@ -228,11 +228,11 @@ msgstr "Usuari modificació"
 
 msgctxt "field:asset.project.configuration,create_date:"
 msgid "Create Date"
-msgstr "Data de creació"
+msgstr "Data creació"
 
 msgctxt "field:asset.project.configuration,create_uid:"
 msgid "Create User"
-msgstr "Usuari de creació"
+msgstr "Usuari creació"
 
 msgctxt "field:asset.project.configuration,id:"
 msgid "ID"
@@ -248,7 +248,7 @@ msgstr "Nom"
 
 msgctxt "field:asset.project.configuration,write_date:"
 msgid "Write Date"
-msgstr "Data modificación"
+msgstr "Data modificació"
 
 msgctxt "field:asset.project.configuration,write_uid:"
 msgid "Write User"
@@ -264,11 +264,11 @@ msgstr "Data de creació"
 
 msgctxt "field:asset.project.configuration.company,create_uid:"
 msgid "Create User"
-msgstr "Usuari de creació"
+msgstr "Usuari creació"
 
 msgctxt "field:asset.project.configuration.company,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:asset.project.configuration.company,project_sequence:"
 msgid "Project Sequence"
@@ -280,7 +280,7 @@ msgstr "Nom"
 
 msgctxt "field:asset.project.configuration.company,write_date:"
 msgid "Write Date"
-msgstr "Data modificación"
+msgstr "Data modificació"
 
 msgctxt "field:asset.project.configuration.company,write_uid:"
 msgid "Write User"
@@ -292,11 +292,11 @@ msgstr "Quantitat"
 
 msgctxt "field:asset.project.sale.line,create_date:"
 msgid "Create Date"
-msgstr "Data de creació"
+msgstr "Data creació"
 
 msgctxt "field:asset.project.sale.line,create_uid:"
 msgid "Create User"
-msgstr "Usuari de creació"
+msgstr "Usuari creació"
 
 msgctxt "field:asset.project.sale.line,currency:"
 msgid "Currency"
@@ -308,11 +308,11 @@ msgstr "Dígits de la moneda"
 
 msgctxt "field:asset.project.sale.line,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:asset.project.sale.line,product:"
 msgid "Product"
-msgstr "Productes"
+msgstr "Producte"
 
 msgctxt "field:asset.project.sale.line,project:"
 msgid "Project"
@@ -332,7 +332,7 @@ msgstr "Unitat"
 
 msgctxt "field:asset.project.sale.line,unit_digits:"
 msgid "Unit Digits"
-msgstr "Decimals unitaris"
+msgstr "Decimals unitat"
 
 msgctxt "field:asset.project.sale.line,unit_price:"
 msgid "Unit Price"
@@ -340,7 +340,7 @@ msgstr "Preu unitat"
 
 msgctxt "field:asset.project.sale.line,write_date:"
 msgid "Write Date"
-msgstr "Data modificación"
+msgstr "Data modificació"
 
 msgctxt "field:asset.project.sale.line,write_uid:"
 msgid "Write User"

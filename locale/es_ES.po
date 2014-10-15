@@ -52,11 +52,11 @@ msgstr "Empresa"
 
 msgctxt "field:asset.project,create_date:"
 msgid "Create Date"
-msgstr "Fecha de creación"
+msgstr "Fecha creación"
 
 msgctxt "field:asset.project,create_uid:"
 msgid "Create User"
-msgstr "Usuario de creación"
+msgstr "Usuario creación"
 
 msgctxt "field:asset.project,date_done:"
 msgid "Done Date"
@@ -92,7 +92,7 @@ msgstr "Otros gastos"
 
 msgctxt "field:asset.project,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:asset.project,income_labor:"
 msgid "Income Labor"
@@ -152,7 +152,7 @@ msgstr "Nota"
 
 msgctxt "field:asset.project,party:"
 msgid "Party"
-msgstr "Terceros"
+msgstr "Tercero"
 
 msgctxt "field:asset.project,rec_name:"
 msgid "Name"
@@ -196,15 +196,15 @@ msgstr "Usuario modificación"
 
 msgctxt "field:asset.project-account.invoice.milestone.group,create_date:"
 msgid "Create Date"
-msgstr "Fecha de creación"
+msgstr "Fecha creación"
 
 msgctxt "field:asset.project-account.invoice.milestone.group,create_uid:"
 msgid "Create User"
-msgstr "Usuario de creación"
+msgstr "Usuario creación"
 
 msgctxt "field:asset.project-account.invoice.milestone.group,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:asset.project-account.invoice.milestone.group,milestone_group:"
 msgid "Milestone Group"
@@ -228,15 +228,15 @@ msgstr "Usuario modificación"
 
 msgctxt "field:asset.project.configuration,create_date:"
 msgid "Create Date"
-msgstr "Fecha de creación"
+msgstr "Fecha creación"
 
 msgctxt "field:asset.project.configuration,create_uid:"
 msgid "Create User"
-msgstr "Usuario de creación"
+msgstr "Usuario creación"
 
 msgctxt "field:asset.project.configuration,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:asset.project.configuration,project_sequence:"
 msgid "Maintenance Sequence"
@@ -260,15 +260,15 @@ msgstr "Empresa"
 
 msgctxt "field:asset.project.configuration.company,create_date:"
 msgid "Create Date"
-msgstr "Fecha de creación"
+msgstr "Fecha creación"
 
 msgctxt "field:asset.project.configuration.company,create_uid:"
 msgid "Create User"
-msgstr "Usuario de creación"
+msgstr "Usuario creación"
 
 msgctxt "field:asset.project.configuration.company,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:asset.project.configuration.company,project_sequence:"
 msgid "Project Sequence"
@@ -292,11 +292,11 @@ msgstr "Importe"
 
 msgctxt "field:asset.project.sale.line,create_date:"
 msgid "Create Date"
-msgstr "Fecha de creación"
+msgstr "Fecha creación"
 
 msgctxt "field:asset.project.sale.line,create_uid:"
 msgid "Create User"
-msgstr "Usuario de creación"
+msgstr "Usuario creación"
 
 msgctxt "field:asset.project.sale.line,currency:"
 msgid "Currency"
@@ -304,15 +304,15 @@ msgstr "Moneda"
 
 msgctxt "field:asset.project.sale.line,currency_digits:"
 msgid "Currency Digits"
-msgstr "Decimals de la moneda"
+msgstr "Decimales de la moneda"
 
 msgctxt "field:asset.project.sale.line,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:asset.project.sale.line,product:"
 msgid "Product"
-msgstr "Productos"
+msgstr "Producto"
 
 msgctxt "field:asset.project.sale.line,project:"
 msgid "Project"
