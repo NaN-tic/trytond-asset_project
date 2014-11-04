@@ -7,8 +7,8 @@ from trytond.model import ModelSQL, ModelView, fields
 from trytond.pyson import Eval, If, Bool
 from trytond.transaction import Transaction
 from trytond.pool import Pool, PoolMeta
-from trytond.config import CONFIG
-DIGITS = int(CONFIG.get('unit_price_digits', 4))
+from trytond.config import config
+DIGITS = int(config.get('digits', 'unit_price_digits', 4))
 
 __all__ = ['ProjectMilestoneGroup', 'ProjectSaleLine', 'Project',
     'ShipmentWork', 'Sale', 'Maintenance', 'MilestoneGroup']
